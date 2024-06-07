@@ -9,3 +9,13 @@ Permet de cloner le dépôt git avec l'url fournit sur la page.
 2.a) git checkout -b "feature"
      git checkout feature
 La première commande créée une branche nommée "feature" et la seconde me permet de basculer sur cette branche.
+
+2.b) Fichier indes.html crée
+2.c) En faisant "git checkout feature" vers la branche feature j'ai eu comme erreur "error: Your local changes to the following files would be overwritten by checkout:
+        report.md
+Please commit your changes or stash them before you switch branches.
+Aborting", pour résoudre le problème j'ai d'abord fait un "git stash" pour sauvegarder temporairement mes modifications, ensuite j'ai pu basculer vers ma branche feature.
+
+2.d) Commentaire ajouter dans le fichier README.md
+
+2.e) 
