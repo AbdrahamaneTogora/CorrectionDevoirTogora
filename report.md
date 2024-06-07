@@ -34,3 +34,10 @@ Aborting", pour résoudre le problème j'ai d'abord fait un "git stash" pour sau
     git commit -m "Envoie des dernières modifications sur le dépôt en étant sur la brache feature"
     Ces deux commandes me permettent d'envoyer les dernières modifications sur le dépôt en étant sur la brache feature.
 >>>>>>> feature
+
+2.g) En essayant de faire la fusion des deux fichiers avec la commande "git merge feature" j'ai eu comme erreur "Auto-merging index.html
+CONFLICT (add/add): Merge conflict in index.html
+Auto-merging report.md
+CONFLICT (add/add): Merge conflict in report.md
+Automatic merge failed; fix conflicts and then commit the result." et "fatal: You have not concluded your merge (MERGE_HEAD exists).
+Please, commit your changes before you merge.", pour résoudre cette erreur j'ai fait "git add . #pour l'ajout" et "git commit -m "Commit du fichier index.html" #pour l'envoie des modifications".
